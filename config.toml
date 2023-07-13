@@ -1,0 +1,11 @@
+relativeURLs = true
+title = "Chandni Raja"
+theme = "academimal"
+sectionPagesMenu = "main"
+defaultContentLanguage = "en"
+ignorefiles = [ "hugo_travis_ci", ".travis.yml" ]
+
+[params]
+    shortbio = "PhD Candidate in Economics, UCLA"
+    logo = "chandni_headshot.jpg" 
+    
