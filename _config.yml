@@ -3,6 +3,6 @@ plugins:
 title: Chandni Raja
 logo: /assets/img/chands.jpg
 description: PhD Candidate in Economics, UCLA
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
