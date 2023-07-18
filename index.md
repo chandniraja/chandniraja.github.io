@@ -4,15 +4,14 @@ layout: default
 
 I am a PhD Candidate in Economics at UCLA. My research interests are in industrial organization and applied microeconomics. My current research focuses on healthcare markets.
 
-## Publications
+## Working Papers
 
-How Do Hospitals Respond to Input Regulation? Evidence from the California Nurse Staffing Mandate, 
-_Journal of Health Economics, Revise and Resubmit, May 2023 _
+How Do Hospitals Respond to Input Regulation? Evidence from the California Nurse Staffing Mandate, _Journal of Health Economics_, _Revise and Resubmit_, _May 2023_
 
 Mandated minimum nurse-to-patient ratios have been the subject of active debate in the U.S. for over twenty years and are under legislative consideration today in several states and at the federal level. This paper uses the 1999 California nurse staffing mandate as an empirical setting to estimate the causal effects of minimum ratios on hospitals. Minimum ratios led to a 58 minute increase in nursing time per patient day and 9 percent increase in the wage bill per patient day in acute care among treated hospitals. Hospitals responded on several margins: increased their use of lower-licensed and younger nurses, reduced capacity by 16 beds (12 percent), and increased bed utilization rates by 0.045 points (8 percent). Using administrative data on discharges for acute myocardial infarction (AMI), I find a significant reduction in length of stay (5 percent). I investigate whether the decline in length of stay is indicative of higher care quality or hospitals discharging patients ``quicker and sicker" due to capacity constraints. I find no effect on the 30-day readmission rate and conclude there was an increase in care quality per day for AMI.
 
 
-
+<!--
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
@@ -132,3 +131,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
+-->
