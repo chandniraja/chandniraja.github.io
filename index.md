@@ -12,7 +12,7 @@ Mandated minimum nurse-to-patient ratios have been the subject of active debate 
 
 ## CV
 
-[Curriculum Vitae](./assets/cv/chandni_cv).
+[Curriculum Vitae](./assets/cv/chandni_cv.pdf)
 
 
 <!--
