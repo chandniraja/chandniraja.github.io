@@ -4,6 +4,8 @@ layout: default
 
 I am a PhD Candidate in Economics at UCLA. My research interests are in industrial organization and applied microeconomics. My current research focuses on healthcare markets.
 
+Feel free to contact me at chandni [dot] raja [at] gmail [dot] com
+
 ## Working Papers
 
 How Do Hospitals Respond to Input Regulation? Evidence from the California Nurse Staffing Mandate, _Revise and Resubmit_, _Journal of Health Economics_, _May 2023_
