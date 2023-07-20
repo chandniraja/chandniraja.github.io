@@ -4,7 +4,7 @@ layout: default
 
 I am a PhD Candidate in Economics at UCLA. My research interests are in industrial organization and applied microeconomics. My current research focuses on healthcare markets.
 
-Feel free to contact me at chandni [dot] raja [at] gmail [dot] com
+Please feel free to contact me at chandni.raja@gmail.com.
 
 ## Working Papers
 
