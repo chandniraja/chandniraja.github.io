@@ -2,7 +2,7 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 title: Chandni Raja
 logo: /assets/img/chands.jpg
-description: 
+description: PhD Candidate in Economics at UCLA
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
