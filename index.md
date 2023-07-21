@@ -6,7 +6,7 @@ I am a PhD Candidate in Economics at UCLA. My research interests are in industri
 
 Email: chandni [dot] raja [at] gmail [dot] com.
 
-Curriculum Vitae: [Link to CV](./assets/cv/chandni_cv.pdf)
+[Curriculum Vitae](./assets/cv/chandni_cv.pdf)
 
 ## Working Papers
 
