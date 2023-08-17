@@ -2,7 +2,9 @@
 layout: default
 ---
 
-I am a PhD Candidate in Economics at UCLA. My research interests are in industrial organization and applied microeconomics. My current research focuses on healthcare markets.
+I am a PhD Candidate in Economics at UCLA. My research interests are in industrial organization and applied microeconomics. My current research focuses on the design and regulation of healthcare markets.
+
+Prior to the PhD, I received my MPA from the London School of Economics and worked for several years in economic consulting and then as a consultant for the World Bank.
 
 Email: chandni [dot] raja [at] gmail [dot] com.
 
