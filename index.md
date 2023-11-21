@@ -12,7 +12,7 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 
 ## Publications
 
-How Do Hospitals Respond to Input Regulation? Evidence from the California Nurse Staffing Mandate,**_Journal of Health Economics_**, _December 2023_
+How Do Hospitals Respond to Input Regulation? Evidence from the California Nurse Staffing Mandate,_Journal of Health Economics_, _December 2023_
 
  [[Paper]](/assets/pdf/how_do_hospitals_respond_raja_110623.pdf) [[Gated version]](https://www.sciencedirect.com/science/article/pii/S0167629623001030)
 
