@@ -22,6 +22,8 @@ How Do Hospitals Respond to Input Regulation? Evidence from the California Nurse
 
 ## Work In Progress
 
+Regulating the Production of Healthcare Quality (solo project). 
+
 Identifying Sources of Monopsony Power in Labor Markets (solo project). Census Bureau Special Sworn Status Project (12/09/2022)
 
 Washington State Public Option (with Nick Tilipman and Wes Yin)
