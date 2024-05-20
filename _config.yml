@@ -1,8 +1,7 @@
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 title: Chandni Raja
-logo: /assets/img/chands3.png
-description:     
+logo: /assets/img/chands3.png    
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
