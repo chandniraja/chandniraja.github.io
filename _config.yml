@@ -1,6 +1,10 @@
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 title: Chandni Raja
+output:
+	html_document:
+		includes:
+			in_header: GA_Script.html
 logo: /assets/img/chands3.png    
 description: PhD Candidate in Economics
 show_downloads: false
