@@ -4,7 +4,7 @@ title: Chandni Raja
 output:
 	html_document:
 		includes:
-			in_header: GA_Script.html
+			in_header: /assets/GA_Script.html
 logo: /assets/img/chands3.png    
 description: PhD Candidate in Economics
 show_downloads: false
