@@ -28,7 +28,7 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 
 [3] Identifying Sources of Monopsony Power in Labor Markets (solo project). Census Bureau Special Sworn Status Project.
 
-[4] Washington State Public Option (with Nick Tilipman and Wes Yin)
+[4] Public Option (with Nick Tilipman and Wes Yin)
 
 
 <!--
