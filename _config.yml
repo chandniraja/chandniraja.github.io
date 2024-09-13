@@ -4,7 +4,7 @@ title: Chandni Raja
 output:
 	html_document:
 		includes:
-			in_header: /assets/GA_Script.html
+			in_header: /files/GA_Script.html
 logo: /files/img/chands3.png    
 description: 
 show_downloads: false
