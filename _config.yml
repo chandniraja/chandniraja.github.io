@@ -5,8 +5,8 @@ output:
 	html_document:
 		includes:
 			in_header: /assets/GA_Script.html
-logo: /assets/img/chands3.png    
-description: PhD Candidate in Economics
+logo: /files/img/chands3.png    
+description: 
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal

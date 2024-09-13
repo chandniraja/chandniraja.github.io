@@ -8,13 +8,13 @@ Prior to the PhD, I received my MPA from the London School of Economics and work
 
 Email: chandni [dot] raja [at] gmail [dot] com.
 
-[Curriculum Vitae](./assets/cv/chandni_cv.pdf)
+[Curriculum Vitae](./files/cv/chandni_cv.pdf)
 
 ## Publications
 
 [1] How Do Hospitals Respond to Input Regulation? Evidence from the California Nurse Staffing Mandate, **_Journal of Health Economics_**, 92, 102826, December 2023
 
- [[Paper]](/assets/pdf/how_do_hospitals_respond_raja_110623.pdf) [[Gated version]](https://www.sciencedirect.com/science/article/pii/S0167629623001030)
+ [[Paper]](/files/pdf/how_do_hospitals_respond_raja_110623.pdf) [[Gated version]](https://www.sciencedirect.com/science/article/pii/S0167629623001030)
 
 <details>
 <summary><i>Show Abstract</i></summary> <i>Abstract:</i> Mandated minimum nurse-to-patient ratios have been the subject of active debate in the U.S. for over twenty years and are under legislative consideration today in several states and at the federal level. This paper uses the 1999 California nurse staffing mandate as an empirical setting to estimate the causal effects of minimum ratios on hospitals. Minimum ratios led to a 58 minute increase in nursing time per patient day and 9 percent increase in the wage bill per patient day in the general medical/surgical acute care unit among treated hospitals. Hospitals responded on several margins: increased their use of lower-licensed and younger nurses, reduced capacity by 16 beds (14 percent), and increased bed utilization rates by 0.045 points (8 percent). Using administrative data on discharges for acute myocardial infarction (AMI), I find a significant reduction in length of stay (5 percent) and no effect on the 30-day all-cause readmission rate. The null effect on readmissions suggests that length of stay declined not because hospitals were discharging AMI patients ``quicker and sicker", rather, AMI patients recovered more quickly due to an improvement in care quality per day. 
@@ -24,11 +24,11 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 
 ## Work in Progress
 
-[2] Regulating the Production of Healthcare Quality (solo project). 
+[2] Input Regulation and the Production of Healthcare Quality (solo project). 
 
 [3] Identifying Sources of Monopsony Power in Labor Markets (solo project). Census Bureau Special Sworn Status Project.
 
-[4] Public Option (with Nick Tilipman and Wes Yin)
+[4] Public Option, Plan Premiums, and Provider Rate Negotiation (with Nick Tilipman and Wes Yin)
 
 
 <!--
