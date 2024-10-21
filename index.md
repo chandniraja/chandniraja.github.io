@@ -24,11 +24,11 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 
 ## Work in Progress
 
-[2] Input Regulation and the Production of Healthcare Quality (solo project). 
+[2] Input Regulation and the Production of Hospital Quality
 
-[3] Identifying Sources of Monopsony Power in Labor Markets (solo project). Census Bureau Special Sworn Status Project.
+[3] Collusion in Labor Markets. Census Bureau Special Sworn Status Project.
 
-[4] Public Option, Plan Premiums, and Provider Rate Negotiation (with Nick Tilipman and Wes Yin)
+[4] Public Option, Plan Premiums, and Provider Rate Negotiation (with Nicholas Tilipman and Wesley Yin)
 
 
 <!--
