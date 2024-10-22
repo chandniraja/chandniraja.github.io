@@ -26,9 +26,9 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 
 [2] Input Regulation and the Production of Hospital Quality
 
-[3] Collusion in Labor Markets. Census Bureau Special Sworn Status Project.
+[3] Employer Collusion in Labor Markets. Census Bureau Special Sworn Status Project.
 
-[4] Public Option, Plan Premiums, and Provider Rate Negotiation (with Nicholas Tilipman and Wesley Yin)
+[4] Effects of Public Option on Plan Competition and Provider Rate Negotiation (with Nicholas Tilipman and Wesley Yin)
 
 
 <!--
