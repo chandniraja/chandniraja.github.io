@@ -32,10 +32,11 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 
 ## Teaching
 
-*   Intermediate Microeconomic Theory (Econ 101): Fall 2020 (**winner of Teaching Assistant award), Winter 2024
-*   Organization of Firms (Econ 106I): Winter 2021 (**winner of Teaching Assistant award)
+Intermediate Microeconomic Theory (Econ 101): Fall 2020 (**winner of Teaching Assistant award), Winter 2024
 
- [[Full set of teaching evaluations]](/files/teaching/RAJA_C._full_evaluations.pdf)
+Organization of Firms (Econ 106I): Winter 2021 (**winner of Teaching Assistant award)
+
+ [Full set of teaching evaluations](/files/teaching/RAJA_C._full_evaluations.pdf)
 
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~.
