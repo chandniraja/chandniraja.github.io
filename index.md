@@ -24,9 +24,17 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 
 <br/>
 
-## Work in Progress
+## Working Papers
 
-[2] Input Regulation and the Production of Hospital Quality
+[2] **Job market paper** [[Input Regulation and the Production of Hospital Quality]] (/files/pdf/jmp_raja.pdf) 
+
+<details>
+<summary><i>Show Abstract</i></summary> <i>Abstract:</i> This paper estimates a value-added production model for hospital quality in three factors -- nurse labor, physician labor, and patient health -- using quasi-experimental variation from the 1999 California nurse staffing mandate to identify the production primitives. I find nurses and physicians to be highly complementary (near Leontief) in production and nurses per patient and patient health to be substitutable. I show that minimum nurse-to-patient ratios that do not account for the complementarities increase healthcare labor costs by 1.4 percent holding quality constant amounting to \$24 million in costs across hospitals affected by the mandate. My findings indicate that regulation targeting a single input can be especially misallocative when the complementary input is inelastically supplied. On average, I do not find evidence of across-hospital misallocation of nurses to low productivity hospitals due to ratio regulation -- low staffing hospitals are as productive as their high staffing neighbors.  
+</details>
+
+<br/>
+
+## Work in Progress
 
 [3] Employer Collusion in Labor Markets. U.S. Census Bureau Special Sworn Status Project (approved 12/09/2022).
 
