@@ -24,9 +24,9 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 
 <br/>
 
-## Working Papers
+## Job Market Paper
 
-[2] Input Regulation and the Production of Hospital Quality **Job Market Paper** 
+[2] Input Regulation and the Production of Hospital Quality
 
 [[Paper]](/files/pdf/jmp_raja.pdf) 
 
