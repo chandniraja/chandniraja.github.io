@@ -2,12 +2,12 @@
 title: "How Do Hospitals Respond to Input Regulation? Evidence from the California Nurse Staffing Mandate"
 collection: publications
 category: manuscripts
-permalink: assets/pdf/how_do_hospitals_respond_raja_110623
+permalink: 
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2023-12
 venue: 'Journal of Health Economics'
-slidesurl: ''
-paperurl: 'http://chandniraja.github.io/assets/pdf/how_do_hospitals_respond_raja_110623'
+slidesurl: 
+paperurl: 'assets/pdf/how_do_hospitals_respond_raja_110623'
 citation: 'How Do Hospitals Respond to Input Regulation? Evidence from the California Nurse Staffing Mandate, **_Journal of Health Economics_**, 92, 102826, December 2023'
 ---
 

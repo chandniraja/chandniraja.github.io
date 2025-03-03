@@ -15,4 +15,4 @@ Prior to the PhD, I received my MPA in Public and Economic Policy from the Londo
 
 Email: chandni [dot] raja [at] gmail [dot] com.
 
-[Curriculum Vitae](./assets/pdf/chandni_cv.pdf)
+[Curriculum Vitae](/assets/pdf/chandni_cv.pdf)
