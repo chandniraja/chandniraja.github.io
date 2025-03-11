@@ -15,4 +15,8 @@ My work links academic research with policy. I received my MPA in Public and Eco
 
 Email: chandni [dot] raja [at] gmail [dot] com.
 
-[Curriculum Vitae](/assets/pdf/chandni_cv.pdf)
+[My CV](/assets/pdf/chandni_cv.pdf)
+
+**Peer-Reviewed Publications**
+
+**Working Papers**
