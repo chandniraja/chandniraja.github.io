@@ -80,7 +80,7 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Peer-Reviewed Journal Articles'    
+    title: 'Peer-Reviewed Publications'    
   conferences:
     title: 'Working Papers'
 
