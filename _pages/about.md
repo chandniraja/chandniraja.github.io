@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an economist and PhD Candidate in Economics at UCLA. In my work, I use administrative data and tools from industrial organization and applied microeconomics to study regulatory design and competition.  
+I am an economist and PhD Candidate in Economics at UCLA. I study regulatory design and firm behavior using tools from industrial organization and applied microeconomics.  
 
 Several of my current projects focus on hospitals: developing a better understanding of how hospitals produce healthcare and using this knowledge of the production process to inform the design of regulation aimed at low performers. 
 
