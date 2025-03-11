@@ -239,10 +239,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _datasets
+  # _publications
   - scope:
       path: ""
-      type: datasets
+      type: publications
     values:
       layout: single
       author_profile: true
