@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Chandni Raja -- Economist"
+title                    : "Chandni Raja – Economist"
 title_separator          : "-"
 name                     : &name "Chandni Raja"
 description              : &description "personal description"
