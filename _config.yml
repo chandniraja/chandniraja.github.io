@@ -79,9 +79,9 @@ author:
 publication_category:
   books:
     title: 'Books'
-  manuscripts:
+  pubs:
     title: 'Peer-Reviewed Publications'    
-  conferences:
+  wps:
     title: 'Working Papers'
 
 # Site Settings
