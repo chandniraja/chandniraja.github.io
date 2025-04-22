@@ -11,7 +11,7 @@ I am an economist, PhD Candidate in Economics at UCLA, and Graduate Student Affi
 
 Several of my current projects focus on hospitals: developing a better understanding of how hospitals produce healthcare and using this knowledge of the production process to inform the design of regulation aimed at low performers. 
 
-My work links academic research with policy. I received my MPA in Public and Economic Policy from the London School of Economics and I have professional experience as a competition economist and as an empirical economist for the World Bank.
+My work links academic research with policy. I received my MPA in Public and Economic Policy from the London School of Economics and I have professional experience as a competition economist and as an economist for the World Bank.
 
 Email: chandni [dot] raja [at] gmail [dot] com.
 
