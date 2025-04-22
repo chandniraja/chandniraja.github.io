@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an economist and PhD Candidate in Economics at UCLA. I study regulatory design and firm behavior using tools from industrial organization and applied microeconomics.  
+I am an economist, PhD Candidate in Economics at UCLA, and Graduate Student Affiliate of the California Center for Population Research at UCLA. I study regulatory design and firm behavior using tools from industrial organization and applied microeconomics.  
 
 Several of my current projects focus on hospitals: developing a better understanding of how hospitals produce healthcare and using this knowledge of the production process to inform the design of regulation aimed at low performers. 
 
@@ -21,7 +21,7 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 
 [1] How Do Hospitals Respond to Input Regulation? Evidence from the California Nurse Staffing Mandate, **_Journal of Health Economics_**, 92, 102826, December 2023
 
- [[Paper]](/assets/pdf/how_do_hospitals_respond_raja_110623.pdf) [[Gated version]](https://www.sciencedirect.com/science/article/pii/S0167629623001030)
+ [[Paper]](/assets/pdf/how_do_hospitals_respond_raja_110623.pdf) [[Gated version]](https://www.sciencedirect.com/science/article/pii/S0167629623001030) [[Policy slides]](/assets/pdf/hospitals_policy_slides.pdf)
  
  Mentions in media and policy: [[Hawaii Legislative Reference Bureau Report]](https://lrb.hawaii.gov/wp-content/uploads/2025_TimeforTriage.pdf)
 
@@ -35,7 +35,7 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 
 [2] Input Regulation and the Production of Hospital Quality
 
-[[Paper]](/assets/pdf/jmp_raja.pdf) 
+[[Paper]](/assets/pdf/jmp_raja.pdf) [[Academic slides]]() [[Policy slides]](/assets/pdf/jmp_academic_slides.pdf)
 
 <details>
 <summary><i>Show Abstract</i></summary> <i>Abstract:</i> We have a limited understanding of how nurses, physicians, and patients interact to produce high quality medical care but these interactions are central to efficient regulatory design. This paper estimates a value-added production model for hospital quality in nurses and physicians that allows labor productivity to vary with observed patient type and unobserved hospital productivity. I exploit identifying variation from the 1999 California nurse staffing mandate – one of the first pieces of comprehensive legislation worldwide to establish minimum nurse-to-patient ratios in hospitals. I find nurses and physicians to be highly complementary (near Leontief) in production. I show that minimum nurse-to-patient ratios that do not account for these complementarities increase healthcare labor costs by 1.4 percent holding quality constant amounting to $24 million in costs across hospitals affected by the mandate. I recover hospital productivities and I show that on average there was no across-hospital misallocation of nurses to low productivity hospitals due to the ratio regulation – low staffing hospitals are as productive as their high staffing neighbors. However, I find efficiency gains can be made by reallocating nurses to hospitals with higher severity patients where they are more valuable.
