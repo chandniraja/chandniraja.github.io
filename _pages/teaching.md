@@ -1,7 +1,7 @@
 ---
-permalink: /teaching/
+permalink: /
 title: "Teaching"
-author_profile: false
+author_profile: true
 ---
 **Intermediate Microeconomic Theory (Econ 101), UCLA**
 
