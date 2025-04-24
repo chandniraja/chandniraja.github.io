@@ -3,14 +3,16 @@ set more off
 set type double
 
 gl path "[[INSERT PATH HERE]]"
+// gl data = LOCATION OF THE DATA DOWNLOADED FROM HCAI
+// gl output = LOCATION OF THE DATA PRODUCED IN THIS PROGRAM
 
 forvalues x = 1/18 {
 	
 	if `x' == 1 { // 2002-2003
 		local file fy-2002-2003-28hospitaldata
 		local sheet "Financial and Utilization Data"
-		gl data "$path/Data/Post_2002_Excel"
-		gl output "$path/Data/Processed/2002-2003"
+		gl data "$path/Data/Post_2002_Excel" 
+		gl output "$path/Data/Processed/2002-2003" 
 	}
 	
 	if `x' == 2 { // 2003-2004 same as 2002-2003

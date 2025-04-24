@@ -5,7 +5,7 @@ author_profile: true
 ---
 In the process of working with the data listed below, I've learned a lot about what the data measure and how they map into economically meaningful variables. In case it's useful, I'm sharing code (data construction, data cleaning) and notes on measurement. The content is solely my responsibility and does not necessarily represent the views of the data provider or any other organization mentioned. All errors are mine. 
 
-[1]**[HCAI Hospital Financial Data](https://hcai.ca.gov/data/cost-transparency/hospital-financials/)**
+[1] **[HCAI Hospital Financial Data](https://hcai.ca.gov/data/cost-transparency/hospital-financials/)**
 
 The California Department of Healthcare Access and Information (HCAI) provides public access to annual hospital financial disclosure reports filed by California hospitals. The data are notable in their granularity and timespan. These disclosure reports include data on volumes, capacity, revenues, labor, capital, and materials for Cailfornia hospitals. 
 

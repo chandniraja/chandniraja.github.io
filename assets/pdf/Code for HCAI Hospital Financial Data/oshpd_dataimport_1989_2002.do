@@ -3,7 +3,7 @@ set more off
 set type double
 
 gl path "[[INSERT PATH HERE]]"
-gl data "[[LOCATION OF THE COMPLETE DATA SET FILES FOR FISCAL YEARS 15-27]]"
+gl data "[[LOCATION OF THE DATA DOWNLOADED FROM HCAI FOR FISCAL YEARS 15-27]]"
 gl programs "[[LOCATION OF THE DICTIONARIES]]"
 
 forvalues x = 15/27 { //years 15-27

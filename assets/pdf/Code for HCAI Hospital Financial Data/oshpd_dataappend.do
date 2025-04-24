@@ -3,7 +3,7 @@ set more off
 set type double
 
 gl path "[[INSERT PATH HERE]]"
-gl data "$path/Data/Processed"
+gl data "[[LOCATION OF THE PROCESSED DATA BY YEAR THAT WAS PRODUCED IN THE EARLIER PROGRAMS]]"
 
 use "$data/1989-1990/interimdata", clear // 6/30/89 - 6/29/90
 g fiscal_year = 1990

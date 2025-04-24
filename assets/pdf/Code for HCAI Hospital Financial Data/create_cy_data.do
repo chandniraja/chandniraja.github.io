@@ -6,36 +6,25 @@ gl path "[[INSERT PATH HERE]]"
 gl data "[[LOCATION OF THE PROCESSED DATA FILES FROM EARLIER PROGRAMS]]"
 gl temp "[[LOCATION OF THE FINAL DATA SET TO BE PRODUCED IN THIS PROGRAM]]"
 
-// External data ////////////////////////////////////////////
+// External data to be merged onto the HCAI Financial Data
 
-// Edited ownership names for 1995 tables (edited myself) 
-// In the future can do this name standardization for all years
+// (1) Case Mix Index from OSHPD 
+// Source: https://data.chhs.ca.gov/dataset/case-mix-index
+	import excel "$path/Data/casemixindex_1996_2020", firstrow clear
+	ren *, lower
+	ren oshpd_id oshpd_facnum
+	ren fy* costmix* 
+	ren cy* costmix*
+	g cmi = costmix1996
+	replace oshpd_facnum = "106" + oshpd_facnum
+	destring oshpd_facnum, replace
+	save "$temp/cmi", replace // for the 1995 tables
 
+	reshape long costmix, i(oshpd_facnum county facility_name) j(calendar_year)
+	save "$temp/cmi_reshape", replace
 
-import excel "$data/ownership_sheet_edited", firstrow clear
-keep oshpd_facnum ownername ownername_edited
-duplicates drop
-g fiscal_year = 1995
-save "$temp/ownnames", replace
-
-// Case Mix Index from OSHPD (https://data.chhs.ca.gov/dataset/case-mix-index)
-
-
-import excel "$path/Data/casemixindex_1996_2020", firstrow clear
-ren *, lower
-ren oshpd_id oshpd_facnum
-ren fy* costmix* 
-ren cy* costmix*
-g cmi = costmix1996
-replace oshpd_facnum = "106" + oshpd_facnum
-destring oshpd_facnum, replace
-save "$temp/cmi", replace // for the 1995 tables
-
-reshape long costmix, i(oshpd_facnum county facility_name) j(calendar_year)
-save "$temp/cmi_reshape", replace
-
-// Pivot tables from OSHPD with acute beds, GAC, small/rural hospital, and DSH designations, how much LTC is on-site, health system
-
+// (2) Pivot tables from OSHPD with acute beds, GAC, small/rural hospital, and DSH designations, how much LTC is on-site, health system
+// Source: https://hcai.ca.gov/data/cost-transparency/hospital-financials/#pivot-profiles
 
 foreach file of numlist 1995/2020 {
 	import excel "$path/Data/HCAI Pivot Tables/hafd`file'pivot.xls", sheet("Data") firstrow clear
@@ -74,7 +63,7 @@ foreach file of numlist 1995/2020 {
 }
 
 
-// OSHPD Financial data ////////////////////////////////////////////
+// HCAI Financial Data (use consolidated file produced in oshpd_dataappend.do) 
 
 	use "$data/fy1990_2020_panel", clear
 
@@ -85,8 +74,6 @@ foreach file of numlist 1995/2020 {
 	drop if oshpd_facnum == "State (OSHPD) Facility Number"
 	destring oshpd_facnum, replace
 	
-	
-	
 	// Did not import these as alternate control types so recoding here rather than in the original import
 	ren (ctrlstate ctrlcounty ctrlcitycounty ctrlcity ctrldistrict) (ctrltype_st ctrltype_co ctrltype_cityco ctrltype_city ctrltype_dist)
 	la var ctrltype_st "Type of control (one only) - state"
@@ -95,7 +82,7 @@ foreach file of numlist 1995/2020 {
 	la var ctrltype_city "Type of control (one only) - city"
 	la var ctrltype_dist "Type of control (one only) - district"
 
-// Key variables 
+	// Construct new variables
 	
 	foreach unit in msa peda psya psyac obst reh defo otha ///
 	msic cic pic nic burn psyi oic nur sa sn psyl intc res ods tot {
@@ -136,6 +123,7 @@ foreach file of numlist 1995/2020 {
 	}
 	
 	
+	// Construct standardized patient days by payor across the years
 	// The following is only prepared for FY 1996-1997 onwards because prior to that there were 3 payer categories
 	
 	// Patient days by payer type
@@ -186,7 +174,8 @@ foreach file of numlist 1995/2020 {
 			drop `unit'_`var'patdays_n
 		}
 	}		
-		
+	
+	// Construct standardized patient revenues by payor across the years
 	// Revenues by payer type 
 	
 	// FY 2000-2001 onwards 
@@ -224,8 +213,7 @@ foreach file of numlist 1995/2020 {
 		ren `unit'_othpayinpatrev `unit'_othinpatrev
 	}
 			
-// Hospital characteristics
-
+// Merge the hospital characteristics from the pivot tables
 	foreach file of numlist 1995/2020 {
 		merge m:1 oshpd_facnum fiscal_year using "$temp/pivot_`file'", update
 		drop if _m == 2
@@ -233,7 +221,6 @@ foreach file of numlist 1995/2020 {
 	}
 	
 	// Assign GAC designation to 1990-1994 FY hospitals where we don't have pivot tables
-	
 	replace HealthSystem = SYSTEM3HOSP if HealthSystem == "" & SYSTEM3HOSP != ""
 	replace HealthSystem = SYSTEM2HOSP if HealthSystem == "" & SYSTEM2HOSP != ""
 	replace hsaname = HSAname if hsaname == "" & HSAname != ""
@@ -310,9 +297,10 @@ foreach file of numlist 1995/2020 {
 	
 	// For the time being leave the duplicate obs by hospital ID and fiscal year in the data set
 	// Depending on which variables are going to be used can take a weighted average of those variables prior to analysis
-	bysort oshpd_facnum fiscal_year: egen sum_days_elaps = sum(rep_days_elaps)
+	bysort oshpd_facnum fiscal_year: egen sum_days_elaps = sum(rep_days_elaps) // 90 percent of hospitals have reported for 365 days, others need to be adjusted
 	
-	// 90 percent of hospitals have report for 365 days, others need to be adjusted
+	
+	// The following step is time consuming so ideally run once and refer to the temp file that is saved (int_cy_panel) to avoid re-running the whole program
 	destring msa_mgmthrs msa_techhrs msa_physhrs msa_mphrs msa_envhrs msa_clerhrs msa_othhrs ///
 	msa_mgmthrlywage msa_techhrlywage msa_physhrlywage msa_mphrlywage msa_envhrlywage msa_clerhrlywage msa_othhrlywage msa_aidehrlywage msa_rnhrlywage msa_lvnhrlywage ///
 	msic_mgmthrs msic_techhrs msic_physhrs msic_mphrs msic_envhrs msic_clerhrs msic_othhrs ///
@@ -352,6 +340,7 @@ foreach file of numlist 1995/2020 {
 
 	use "$temp/int_cy_panel", clear
 	
+	// Prior to 38th FY vs. afterwards there is a coding issue for residents and fellows
 	// Fix the residents + fellows issue for FY prior to 38 (prior to 2003)
 	foreach var of varlist *_residents *_fellows {
 		replace `var' = `var'/100 if fiscal_year <= 2002
@@ -388,31 +377,9 @@ foreach file of numlist 1995/2020 {
 	count if max_pnum_new == .
 	count if max_pnum_new != min_pnum_new
 	
-	// CMS Case Mix Index
-	g provider = max_pnum_new 
-	g fyear = fiscal_year
-	
-	merge m:1 provider fyear using "$temp/impactfiles"
-	drop if _m == 2 
-	drop _m provider
-	ren tacmiv tacmiv1
-	
-	g provider = min_pnum_new
-	
-	merge m:1 provider fyear using "$temp/impactfiles"
-	drop if _m == 2 
-	drop _m provider
-	ren tacmiv tacmiv2
-	
-	g tacmiv = tacmiv1 if tacmiv1 != . & tacmiv2 == .
-	replace tacmiv = tacmiv2 if tacmiv1 == . & tacmiv2 != .
-	replace tacmiv = tacmiv1 if tacmiv1 == tacmiv2 & tacmiv1 != .
-	
-	tempfile forcyfile
-	save `forcyfile', replace
-	
-// Calendar Year file 
+// Construct calendar year file 
 
+	// Recode ownership types
 	destring ctrltype*, replace
 	g ctrl_type = 1 if ctrltype_church == 1
 	replace ctrl_type = 2 if ctrltype_npcorp == 1
@@ -437,7 +404,7 @@ foreach file of numlist 1995/2020 {
 	g dsh = DSHhosp == "dsh"
 	g gac = TYPE_CARE == "general acute"
 	
-	
+	// Standardize health system names
 	ren HealthSystem healthsys
 	replace healthsys = "ADVENTIST HEALTH" if inlist(healthsys, "ADVENTIST HEALTH SYSTEM", "ADVENTIST HEALTH SYSTEMS")
 	replace healthsys = "AHMC HEALTHCARE INC." if inlist(healthsys, "AHMC HEALTHCARE, INC.")
@@ -459,7 +426,8 @@ foreach file of numlist 1995/2020 {
 	replace healthsys = "TENET HEALTHCARE" if inlist(healthsys, "TENET HEALTHCARE CORPORATION")
 	replace healthsys = "UNIVERSAL HEALTH SERVICES INC." if inlist(healthsys, "UNIVERSAL HEALTH SERVICES, INC.", "UNIVERSAL HEALTH SYSTEMS INC.")
 	
-	keep zipcode ownername healthsys oshpd_facnum medicare_pnum provname address city zipcode tacmiv ///
+	// Following is the conversion from FY to CY using the rep_days_elaps variable which counts the number of reporting days in the FY
+	keep zipcode ownername healthsys oshpd_facnum medicare_pnum provname address city zipcode ///
 	msa_mgmthrs msa_techhrs msa_physhrs msa_mphrs msa_envhrs msa_clerhrs msa_othhrs ///
 	msa_rnhrlywage msa_lvnhrlywage msa_regnhrlywage msa_aidehrlywage msa_mgmthrlywage msa_techhrlywage msa_physhrlywage msa_mphrlywage msa_envhrlywage msa_clerhrlywage msa_othhrlywage ///
 	cic_mgmthrs cic_techhrs cic_physhrs cic_mphrs cic_envhrs cic_clerhrs cic_othhrs ///
@@ -577,7 +545,7 @@ cic_rnhrlywage cic_lvnhrlywage cic_regnhrlywage cic_aidehrlywage cic_mgmthrlywag
 	lt_mcarepatdays lt_mcalpatdays lt_indigpatdays lt_thirdpatdays lt_othpatdays ///
 	oth_mcareinpatrev oth_mcalinpatrev oth_indiginpatrev oth_thirdinpatrev oth_othinpatrev ///
 	oth_mcarepatdays oth_mcalpatdays oth_indigpatdays oth_thirdpatdays oth_othpatdays ///
-	amb_rnhrs amb_lvnhrs anc_rnhrs anc_lvnhrs tacmiv msa_staffbeds_ave msic_staffbeds_ave tot_staffbeds_ave *_mdhosp_bc *_mdhosp_be *_mdhosp_oth *_mdnon_bc *_mdnon_be *_mdnon_oth *_residents *_fellows msa_alloc* msic_alloc* *_inpatunits *_outpatunits msic_phys* msa_phys* tot_phys* *_curr *_prior *_begbal *_endbal *_addpurch *_adddonat *_transfer *_dispret ///
+	amb_rnhrs amb_lvnhrs anc_rnhrs anc_lvnhrs msa_staffbeds_ave msic_staffbeds_ave tot_staffbeds_ave *_mdhosp_bc *_mdhosp_be *_mdhosp_oth *_mdnon_bc *_mdnon_be *_mdnon_oth *_residents *_fellows msa_alloc* msic_alloc* *_inpatunits *_outpatunits msic_phys* msa_phys* tot_phys* *_curr *_prior *_begbal *_endbal *_addpurch *_adddonat *_transfer *_dispret ///
 	{
 		g `var'_new = .
 		bysort oshpd_facnum rep_beg_date rep_end_date: replace `var'_new = `var'*cy_year1_wt if _n == 1
@@ -588,7 +556,8 @@ cic_rnhrlywage cic_lvnhrlywage cic_regnhrlywage cic_aidehrlywage cic_mgmthrlywag
 	g calendar_year = .
 	bysort oshpd_facnum rep_beg_date rep_end_date: replace calendar_year = calendar_year1 if _n == 1
 	bysort oshpd_facnum rep_beg_date rep_end_date: replace calendar_year = calendar_year2 if _n == 2
-		
+	
+	// Following are the dummy variables that should be constant within the new CY
 	foreach var of varlist medicare_pnum provname zipcode ownername address city zipcode healthsys physcont_* {
 		g `var'_new = ""
 		bysort oshpd_facnum calendar_year: replace `var'_new = `var' if _n == 1
@@ -653,7 +622,7 @@ cic_rnhrlywage cic_lvnhrlywage cic_regnhrlywage cic_aidehrlywage cic_mgmthrlywag
 	lt_mcarepatdays lt_mcalpatdays lt_indigpatdays lt_thirdpatdays lt_othpatdays ///
 	oth_mcareinpatrev oth_mcalinpatrev oth_indiginpatrev oth_thirdinpatrev oth_othinpatrev ///
 	oth_mcarepatdays oth_mcalpatdays oth_indigpatdays oth_thirdpatdays oth_othpatdays ///
-	amb_rnhrs amb_lvnhrs anc_rnhrs anc_lvnhrs tacmiv msa_staffbeds_ave msic_staffbeds_ave tot_staffbeds_ave *_mdhosp_bc* *_mdhosp_be* *_mdhosp_oth* *_mdnon_bc* *_mdnon_be* *_mdnon_oth* *_residents* *_fellows* ///
+	amb_rnhrs amb_lvnhrs anc_rnhrs anc_lvnhrs msa_staffbeds_ave msic_staffbeds_ave tot_staffbeds_ave *_mdhosp_bc* *_mdhosp_be* *_mdhosp_oth* *_mdnon_bc* *_mdnon_be* *_mdnon_oth* *_residents* *_fellows* ///
 	msa_alloc* msic_alloc* *_inpatunits_new *_outpatunits_new msic_phys* msa_phys* tot_phys* *_curr_new *_prior_new *_begbal_new *_endbal_new *_addpurch_new *_adddonat_new *_transfer_new *_dispret_new ///
 	, by(oshpd_facnum medicare_pnum provname ownername healthsys address city zipcode calendar_year ctrl_type chnp_ctrl inv_ctrl govt_ctrl teaching smrur dsh gac zipcode ctrltype_co ctrltype_cityco *_physjoint *_physcont *_physrent *_physindep *_physagency *_physsalary *_physother physcont_*)
 	
@@ -664,9 +633,8 @@ cic_rnhrlywage cic_lvnhrlywage cic_regnhrlywage cic_aidehrlywage cic_mgmthrlywag
 	
 	ren *_new *
 	
-	// Inflation-adjusted wages
-
-	// https://www.dir.ca.gov/oprl/CPI/EntireCCPI.PDF
+	// Adjust the monetary variables for inflation
+	// Source: https://www.dir.ca.gov/oprl/CPI/EntireCCPI.PDF
 	local cpi2020 285.315
 	local cpi2019 280.638
 	local cpi2018 272.510
@@ -707,8 +675,6 @@ cic_rnhrlywage cic_lvnhrlywage cic_regnhrlywage cic_aidehrlywage cic_mgmthrlywag
 			replace `unit'_avenursewage_adj = `unit'_avenursewage*(`cpi1990'/`cpi`x'') if calendar_year == `x'
 		}
 	}
-	
-	// Inflation-adjusted revenues and expenses
 		
 	foreach var of varlist msa_rnhrlywage msa_lvnhrlywage msa_regnhrlywage msa_aidehrlywage msa_mgmthrlywage msa_techhrlywage msa_physhrlywage msa_mphrlywage msa_envhrlywage msa_clerhrlywage msa_othhrlywage ///
 	cic_rnhrlywage cic_lvnhrlywage cic_regnhrlywage cic_aidehrlywage cic_mgmthrlywage cic_techhrlywage cic_physhrlywage cic_mphrlywage cic_envhrlywage cic_clerhrlywage cic_othhrlywage ///
@@ -743,7 +709,5 @@ cic_rnhrlywage cic_lvnhrlywage cic_regnhrlywage cic_aidehrlywage cic_mgmthrlywag
 			replace `var'_adj = `var'*(`cpi1990'/`cpi`x'') if calendar_year == `x'
 		}
 	}
-	
-	replace tacmiv = . if tacmiv == 0 
 			
 	save "$temp/cy1988_2020_panel", replace
