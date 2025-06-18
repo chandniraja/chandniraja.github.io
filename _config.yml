@@ -22,7 +22,7 @@ repository               : "chandniraja/chandniraja.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : <img src="chands3.png" width="800" height="600">
+  avatar           : "chands3.png"
   name             : ""
   pronouns         : # example: ""  
   bio              : ""
