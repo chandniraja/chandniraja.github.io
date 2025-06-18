@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an economist, PhD Candidate in Economics at UCLA, and Graduate Student Affiliate of the California Center for Population Research at UCLA. I study regulatory design and firm behavior using tools from industrial organization and applied microeconomics.  
+I am an economist and I study regulatory design and firm behavior using tools from industrial organization and applied microeconomics. I received my PhD in Economics from UCLA in 2025 and I am an External Affiliate of the California Center for Population Research.  
 
 Several of my current projects focus on hospitals: developing a better understanding of how hospitals produce healthcare and using this knowledge of the production process to inform the design of regulation aimed at low performers. 
 
