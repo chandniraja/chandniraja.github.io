@@ -36,9 +36,9 @@ I will be attending the [annual conference](https://ui.ungpd.com/Events/3e4f0230
 
 **Working Papers**
 
-[2] Input Regulation and the Production of Hospital Quality
+[2] Regulating the Quality of Hospitals: Input Regulation, Factor Market Structure, and Misallocation in Healthcare
 
-[[Paper]](/assets/pdf/jmp_raja.pdf) [[Academic slides]](/assets/pdf/jmp_academic_slides.pdf) [[Policy slides]](/assets/pdf/hospitals_policy_slides.pdf)
+[[Paper]](/assets/pdf/regulating_hospitals_craja.pdf) [[Academic slides]](/assets/pdf/jmp_academic_slides.pdf) [[Policy slides]](/assets/pdf/hospitals_policy_slides.pdf)
 
 <details>
 <summary><i>Show Abstract</i></summary> <i>Abstract:</i> We have a limited understanding of how nurses, physicians, and patients interact to produce high quality medical care but these interactions are central to efficient regulatory design. This paper estimates a value-added production model for hospital quality in nurses and physicians that allows labor productivity to vary with observed patient type and unobserved hospital productivity. I exploit identifying variation from the 1999 California nurse staffing mandate – one of the first pieces of comprehensive legislation worldwide to establish minimum nurse-to-patient ratios in hospitals. I find nurses and physicians to be highly complementary (near Leontief) in production. I show that minimum nurse-to-patient ratios that do not account for these complementarities increase healthcare labor costs by 1.4 percent holding quality constant amounting to $24 million in costs across hospitals affected by the mandate. I recover hospital productivities and I show that on average there was no across-hospital misallocation of nurses to low productivity hospitals due to the ratio regulation – low staffing hospitals are as productive as their high staffing neighbors. However, I find efficiency gains can be made by reallocating nurses to hospitals with higher severity patients where they are more valuable.
