@@ -18,7 +18,6 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 [My CV](/assets/pdf/chandni_cv.pdf)
 
 **Upcoming**
-I will be attending the [annual conference](https://ui.ungpd.com/Events/3e4f0230-425b-4d47-b5bc-8617ae162522) of the Swedish Competition Authority on May 19. I'm excited to learn more about European industrial and competition policy. Let me know if you would like to meet to discuss research or catch up! 
 
 **Peer-Reviewed Publications**
 
