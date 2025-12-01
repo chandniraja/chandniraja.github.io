@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am an economist and received my PhD in Economics from UCLA in 2025. I am an External Affiliate of the California Center for Population Research at UCLA. I study regulatory design and firm behavior using tools from industrial organization and applied microeconomics.  
+Welcome! I am an economist and received my PhD in Economics from UCLA in 2025. I am a Senior Associate in the Antitrust and Competition Economics practice of Charles River Associates based in San Francisco. I am also an External Affiliate of the California Center for Population Research at UCLA. My academic work studies regulatory design and firm behavior using tools from industrial organization and applied microeconomics.  
 
-Several of my current projects focus on hospitals: developing a better understanding of how hospitals produce healthcare and using this knowledge of the production process to inform the design of regulation aimed at low performers. 
+Several of my projects focus on hospitals: developing a better understanding of how hospitals produce healthcare and using this knowledge of the production process to inform the design of regulation aimed at low performers. 
 
-My work links academic research with policy. I received my MPA in Public and Economic Policy from the London School of Economics and I have professional experience as a competition economist and as an economist for the World Bank.
+My work links academic research with policy. I received my MPA in Public and Economic Policy from the London School of Economics and I have pre-PhD professional experience in the antitrust and competition regulatory space and development space for international organizations including the World Bank and DFID. 
 
 Email: chandni [dot] raja [at] gmail [dot] com.
 
