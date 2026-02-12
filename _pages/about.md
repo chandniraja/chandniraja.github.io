@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am an economist and received my PhD in Economics from UCLA in 2025. I am a Senior Associate in the Antitrust and Competition Economics practice of Charles River Associates based in San Francisco. I am also an External Affiliate of the California Center for Population Research at UCLA. My academic work studies regulatory design and firm behavior using tools from industrial organization and applied microeconomics.  
+I am an economist and I hold a PhD in Economics from UCLA. I am a Senior Associate in the Antitrust and Competition Economics practice of Charles River Associates based in San Francisco and an External Affiliate of the California Center for Population Research at UCLA. My academic research and professional work focus on industrial organization, regulation, and market design.
 
-Several of my projects focus on hospitals: developing a better understanding of how hospitals produce healthcare and using this knowledge of the production process to inform the design of regulation aimed at low performers. 
+My solo-authored work has been published in the *_Journal of Health Economics_* and I have presented my work on invitation in academic and regulatory outlets (U.S. Department of Justice, U.S. Congressional Budget Office, California Department of Health Care Access and Information). I am a referee for the *_Journal of Health Economics_*, *_Journal of Economic Behavior and Organization_*, and *_Journal of Productivity Analysis_*.
 
-My work links academic research with policy. I received my MPA in Public and Economic Policy from the London School of Economics and I have pre-PhD professional experience in the antitrust and competition regulatory space and development space for international organizations including the World Bank and DFID. 
+My current academic work focuses on hospitals: developing a better understanding of how hospitals produce healthcare and using this knowledge of the production process to inform the design of regulation aimed at low performers. 
 
 Email: chandni [dot] raja [at] gmail [dot] com.
 
