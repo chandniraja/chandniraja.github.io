@@ -11,7 +11,7 @@ I am an economist and I hold a PhD in Economics from UCLA. I am a Senior Associa
 
 My academic research and professional work focus on industrial organization, regulation, and market design. My solo-authored work has been published in the _Journal of Health Economics_ and I have presented my work on invitation in academic and regulatory outlets (U.S. Department of Justice, U.S. Congressional Budget Office, California Department of Health Care Access and Information).
 
-My current academic work focuses on hospitals: developing a better understanding of how hospitals produce healthcare and using this knowledge of the production process to inform the design of regulation aimed at low performers. 
+My current work focuses on hospitals: developing a better understanding of how hospitals produce healthcare and using this knowledge of the production process to inform the design of regulation aimed at low performers. 
 
 Email: chandni [dot] raja [at] gmail [dot] com.
 
