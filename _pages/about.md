@@ -17,8 +17,6 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 
 [My CV](/assets/pdf/chandni_cv.pdf)
 
-**Upcoming**
-
 **Peer-Reviewed Publications**
 
 [1] How Do Hospitals Respond to Input Regulation? Evidence from the California Nurse Staffing Mandate, **_Journal of Health Economics_**, 92, 102826, December 2023
