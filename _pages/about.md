@@ -42,3 +42,19 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 </details>
 
 <br/>
+
+**Policy Publications**
+
+[1] Ethiopia Gender Diagnostic Report: Priorities for Promoting Equity with Niklas Buehren, et al., **_World Bank_**, 2019
+
+[[Report]](http://documents1.worldbank.org/curated/en/300021552881249070/pdf/Ethiopia-Gender-Diagnostic-Report-Priorities-for-Promoting-Equity.pdf)
+
+[2] Data-Driven Decision Making in Fragile Contexts: Evidence from Sudan with Naomi Crowther, et al., **_World Bank_**, 2017
+
+[[Book Chapters]](https://openknowledge.worldbank.org/bitstream/handle/10986/26799/9781464810640.pdf?sequence=2&isAllowed=y)
+
+[3] Inequalities in Public Services in Sudan: Using a Perceptions-Informed View to Drive Policy in Education, Health, and Water Provision with Naomi Crowther, et al., **_U.K. Department for International Development_**, 2014
+
+[[Report]](https://assets.publishing.service.gov.uk/media/57a089b8e5274a27b200021d/61240-Capstone_DFID_Final_Report.pdf)
+
+[4] Tailored Finance and Organic Growth: A Livelihoods Approach to Financial Inclusion in India with Rossi Abi-Rafeh, et al., **_Winner of the InterMedia and Gates Foundation Open Data Challenge Grand Prize_**, 2014
