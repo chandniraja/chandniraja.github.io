@@ -49,7 +49,7 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 
 [[Report]](http://documents1.worldbank.org/curated/en/300021552881249070/pdf/Ethiopia-Gender-Diagnostic-Report-Priorities-for-Promoting-Equity.pdf)
 
-[2] Data-Driven Decision Making in Fragile Contexts: Evidence from Sudan with Naomi Crowther, et al., **_World Bank_**, 2017
+[2] Data-Driven Decision Making in Fragile Contexts: Evidence from Sudan (Chapters 2-4) with Naomi Crowther, et al., **_World Bank_**, 2017
 
 [[Book Chapters]](https://openknowledge.worldbank.org/bitstream/handle/10986/26799/9781464810640.pdf?sequence=2&isAllowed=y)
 
