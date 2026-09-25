@@ -17,6 +17,9 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 
 **Peer-Reviewed Publications**
 
+<div class="paper">
+<div class="paper-text" markdown="1">
+	
 [1] How Do Hospitals Respond to Input Regulation? Evidence from the California Nurse Staffing Mandate, **_Journal of Health Economics_**, 92, 102826, December 2023
 
  [[Paper]](/assets/pdf/how_do_hospitals_respond_raja_110623.pdf) [[Gated version]](https://www.sciencedirect.com/science/article/pii/S0167629623001030) [[Policy slides]](/assets/pdf/hospitals_policy_slides.pdf)
@@ -29,7 +32,14 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 
 <br/>
 
+</div>
+<img class="paper-img" src="/images/msa_msa_nursepatratio_nocmi_ltt.png" alt="Nurse staffing figure">
+</div>
+
 **Working Papers**
+
+<div class="paper">
+<div class="paper-text" markdown="1">
 
 [2] [<span style="color: blue;">**NEW DRAFT**</span>] Regulating Hospital Quality: Input Regulation, Factor Market Structure, and Misallocation in Healthcare
 
@@ -40,6 +50,10 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 </details>
 
 <br/>
+
+</div>
+<img class="paper-img" src="/images/fig_parametric_nurse_mpl_histogram.png" alt="Hospital quality figure">
+</div>
 
 **Policy Publications**
 

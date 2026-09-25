@@ -40,3 +40,11 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+.paper { display: flex; gap: 1.5em; align-items: flex-start; margin-bottom: 1.5em; }
+.paper-text { flex: 1; min-width: 0; }
+.paper-img { width: 180px; flex-shrink: 0; border-radius: 4px; }
+@media (max-width: 600px) {           /* stack image under text on phones */
+  .paper { flex-direction: column; }
+  .paper-img { width: 100%; max-width: 300px; }
+}
