@@ -31,9 +31,9 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 
 **Working Papers**
 
-[2] [[**NEW DRAFT**]] Regulating Hospital Quality: Input Regulation, Factor Market Structure, and Misallocation in Healthcare
+[2] [<span style="color: blue;">**NEW DRAFT**</span>] Regulating Hospital Quality: Input Regulation, Factor Market Structure, and Misallocation in Healthcare
 
-[[Paper]](/assets/pdf/craja_hospitalquality.pdf) [[Supplemental Appendix]] (/assets/pdf/craja_hospitalquality_supplement.pdf) [[Academic slides]](/assets/pdf/jmp_academic_slides.pdf) [[Policy slides]](/assets/pdf/hospitals_policy_slides.pdf)
+[[Paper]](/assets/pdf/craja_hospitalquality.pdf) [[Supplemental Appendix]](/assets/pdf/craja_hospitalquality_supplement.pdf) [[Academic slides]](/assets/pdf/jmp_academic_slides.pdf) [[Policy slides]](/assets/pdf/hospitals_policy_slides.pdf)
 
 <details>
 <summary><i>Show Abstract</i></summary> <i>Abstract:</i> This paper estimates a multi-input production model for hospital quality using identifying variation from the 1999 California nurse staffing mandate. I use the recovered production primitives to study the within- and across-hospital factor misallocation from quality regulation targeting production inputs. I find that nurses and physicians are highly complementary inputs (near Leontief) and regulation targeting only nurses increases annual costs by 0.5 percent (\$10 million) holding quality constant. Misallocation is doubled under second-best where the mandate exacerbates understaffing of physicians at low revenue, government, and rural hospitals. I find no evidence of across-hospital misallocation of nurses to low productivity hospitals due to the regulation – low staffing hospitals are as productive as their high staffing neighbors. However, relative to a mandate that sets the same input floor for all hospitals, I find aggregate efficiency gains can be made by reallocating nurses to higher severity hospitals where labor is more valuable. 
