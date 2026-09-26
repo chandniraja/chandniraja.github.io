@@ -41,7 +41,7 @@ Email: chandni [dot] raja [at] gmail [dot] com.
 <div class="paper">
 <div class="paper-text" markdown="1">
 
-[2] [<span style="color: blue;">**NEW DRAFT**</span>] Regulating Hospital Quality: Input Regulation, Factor Market Structure, and Misallocation in Healthcare
+[2] [<span style="color: blue;">**NEW DRAFT**</span>] Regulating Hospital Quality: Input Regulation, Factor Market Structure, and Misallocation in Healthcare, **_submitted_**
 
 [[Paper]](/assets/pdf/craja_hospitalquality.pdf) [[Supplemental Appendix]](/assets/pdf/craja_hospitalquality_supplement.pdf) [[Academic slides]](/assets/pdf/jmp_academic_slides.pdf) [[Policy slides]](/assets/pdf/hospitals_policy_slides.pdf)
 
